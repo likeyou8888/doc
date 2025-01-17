@@ -84,6 +84,10 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:", // 使用 FontAwesome 6 图标
     },
+
+    backToTop: {
+      threshold: 500,
+    },
     
     markdownImage: {
       figure: true,
