@@ -113,7 +113,7 @@ export default hopeTheme({
         "ArtPlayer",
         "PDF",
         "Share",
-      ], // 添加 Badge 和 VPCard 组件
+      ],
     },
 
     icon: {
