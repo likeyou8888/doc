@@ -106,9 +106,15 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
-    // components: {
-    //   components: ["Badge", "VPCard"], // 添加 Badge 和 VPCard 组件
-    // },
+    components: {
+      components: [
+        "Badge", 
+        "VPCard",
+        "ArtPlayer",
+        "PDF",
+        "Share",
+      ], // 添加 Badge 和 VPCard 组件
+    },
 
     icon: {
       prefix: "fa6-solid:", // 使用 FontAwesome 6 图标
