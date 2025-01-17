@@ -109,10 +109,6 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
-    backToTop: {
-      threshold: 500,
-    },
-
     components: {
       components: [
         "Badge", 
@@ -123,69 +119,73 @@ export default hopeTheme({
       ], // 添加 Badge 和 VPCard 组件
     },
     
-    markdownImage: {
-      figure: true,
-      lazyload: true,
-      size: true,
-    },
+    // backToTop: {
+    //   threshold: 500,
+    // },
 
-    markdownTab: true,
+    // markdownImage: {
+    //   figure: true,
+    //   lazyload: true,
+    //   size: true,
+    // },
 
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      component: true,
-      demo: true,
-      include: true,
+    // markdownTab: true,
+
+    // mdEnhance: {
+    //   align: true,
+    //   attrs: true,
+    //   component: true,
+    //   demo: true,
+    //   include: true,
       
-      mark: true,
-      plantuml: true,
-      spoiler: true,
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tasklist: true,
-      vPre: true,
+    //   mark: true,
+    //   plantuml: true,
+    //   spoiler: true,
+    //   stylize: [
+    //     {
+    //       matcher: "Recommended",
+    //       replacer: ({ tag }) => {
+    //         if (tag === "em")
+    //           return {
+    //             tag: "Badge",
+    //             attrs: { type: "tip" },
+    //             content: "Recommended",
+    //           };
+    //       },
+    //     },
+    //   ],
+    //   sub: true,
+    //   sup: true,
+    //   tasklist: true,
+    //   vPre: true,
 
-      // 在启用之前安装 chart.js
-      // chart: true,
+    //   // 在启用之前安装 chart.js
+    //   // chart: true,
 
-      // insert component easily
+    //   // insert component easily
 
-      // 在启用之前安装 echarts
-      // echarts: true,
+    //   // 在启用之前安装 echarts
+    //   // echarts: true,
 
-      // 在启用之前安装 flowchart.ts
-      // flowchart: true,
+    //   // 在启用之前安装 flowchart.ts
+    //   // flowchart: true,
 
-      // gfm requires mathjax-full to provide tex support
-      // gfm: true,
+    //   // gfm requires mathjax-full to provide tex support
+    //   // gfm: true,
 
-      // 在启用之前安装 mermaid
-      // mermaid: true,
+    //   // 在启用之前安装 mermaid
+    //   // mermaid: true,
 
-      // playground: {
-      //   presets: ["ts", "vue"],
-      // },
+    //   // playground: {
+    //   //   presets: ["ts", "vue"],
+    //   // },
 
-      // 在启用之前安装 @vue/repl
-      // vuePlayground: true,
+    //   // 在启用之前安装 @vue/repl
+    //   // vuePlayground: true,
 
-      // install sandpack-vue3 before enabling it
-      // sandpack: true,
-    },
+    //   // install sandpack-vue3 before enabling it
+    //   // sandpack: true,
+    // },
 
     icon: {
       prefix: "fa6-solid:", // 使用 FontAwesome 6 图标
