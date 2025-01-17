@@ -1,9 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { markdownImagePlugin } from '@vuepress/plugin-markdown-image'
-import { markdownTabPlugin } from '@vuepress/plugin-markdown-tab'
-import { mdEnhancePlugin } from "vuepress-plugin-md-enhance";
 
 export default hopeTheme({
   hostname: "https://manual.likeyou168.cn", // 修改为新的主机名
@@ -65,39 +62,39 @@ export default hopeTheme({
   },
 
   // 启用的一些 markdown 功能
-  // markdown: {
-  //   align: true,
-  //   attrs: true,
-  //   codeTabs: true,
-  //   component: true,
-  //   demo: false,
-  //   figure: true,
-  //   gfm: true,
-  //   imgLazyload: true,
-  //   imgSize: true,
-  //   include: true,
-  //   mark: true,
-  //   plantuml: true,
-  //   spoiler: true,
-  //   stylize: [
-  //     {
-  //       matcher: "Recommended",
-  //       replacer: ({ tag }) => {
-  //         if (tag === "em")
-  //           return {
-  //             tag: "Badge",
-  //             attrs: { type: "tip" },
-  //             content: "Recommended",
-  //           };
-  //       },
-  //     },
-  //   ],
-  //   sub: true,
-  //   sup: true,
-  //   tabs: true,
-  //   tasklist: true,
-  //   vPre: true,
-  // },
+  markdown: {
+    align: true,
+    attrs: true,
+    codeTabs: true,
+    component: true,
+    demo: false,
+    figure: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    plantuml: true,
+    spoiler: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    tasklist: true,
+    vPre: true,
+  },
 
   plugins: {
     // // 评论插件，使用 Giscus
@@ -109,82 +106,8 @@ export default hopeTheme({
     //   categoryId: "DIC_kwDOG_Pt2M4COD69",
     // },
 
-    components: {
-      components: [
-        "Badge", 
-        "VPCard",
-        "ArtPlayer",
-        "PDF",
-        "Share",
-      ], // 添加 Badge 和 VPCard 组件
-    },
-    
-    // backToTop: {
-    //   threshold: 500,
-    // },
-
-    // markdownImage: {
-    //   figure: true,
-    //   lazyload: true,
-    //   size: true,
-    // },
-
-    // markdownTab: true,
-
-    // mdEnhance: {
-    //   align: true,
-    //   attrs: true,
-    //   component: true,
-    //   demo: true,
-    //   include: true,
-      
-    //   mark: true,
-    //   plantuml: true,
-    //   spoiler: true,
-    //   stylize: [
-    //     {
-    //       matcher: "Recommended",
-    //       replacer: ({ tag }) => {
-    //         if (tag === "em")
-    //           return {
-    //             tag: "Badge",
-    //             attrs: { type: "tip" },
-    //             content: "Recommended",
-    //           };
-    //       },
-    //     },
-    //   ],
-    //   sub: true,
-    //   sup: true,
-    //   tasklist: true,
-    //   vPre: true,
-
-    //   // 在启用之前安装 chart.js
-    //   // chart: true,
-
-    //   // insert component easily
-
-    //   // 在启用之前安装 echarts
-    //   // echarts: true,
-
-    //   // 在启用之前安装 flowchart.ts
-    //   // flowchart: true,
-
-    //   // gfm requires mathjax-full to provide tex support
-    //   // gfm: true,
-
-    //   // 在启用之前安装 mermaid
-    //   // mermaid: true,
-
-    //   // playground: {
-    //   //   presets: ["ts", "vue"],
-    //   // },
-
-    //   // 在启用之前安装 @vue/repl
-    //   // vuePlayground: true,
-
-    //   // install sandpack-vue3 before enabling it
-    //   // sandpack: true,
+    // components: {
+    //   components: ["Badge", "VPCard"], // 添加 Badge 和 VPCard 组件
     // },
 
     icon: {
