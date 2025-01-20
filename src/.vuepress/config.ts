@@ -1,25 +1,37 @@
 import { defineUserConfig } from "vuepress";
-import { hopeTheme } from 'vuepress-theme-hope';
+import { searchPlugin } from '@vuepress/plugin-search'
 import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/",
+
   locales: {
     "/": {
       lang: "en-US",
       title: "Docs",
-      description: "document",
+      description: "A docs",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "文档",
-      description: "说明文档",
+      title: "产品手册",
+      description: "产品手册",
     },
   },
+  
+  plugins: [
+    searchPlugin({
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+      },
+    }),
+  ],
 
   theme,
-
   // Enable it with pwa
   // shouldPrefetch: false,
 });
-

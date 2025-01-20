@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const enSidebar = sidebar({
-  "": [
+  "/": [
     {
       text: "Docs",
       icon: "book",
@@ -9,7 +9,8 @@ export const enSidebar = sidebar({
       children: [
         {
           text: "EX系列",
-          icon: "lightbulb",
+          icon: "star",
+          collapsible: true,
           children: [
             { text: "EX2050", icon: "ellipsis", link: "/EX2050/" },
             { text: "EX2070", icon: "ellipsis", link: "/EX2070/" },
@@ -20,7 +21,8 @@ export const enSidebar = sidebar({
         },
         {
           text: "VEX系列",
-          icon: "lightbulb",
+          icon: "star",
+          collapsible: true,
           children: [
             { text: "VEX105/15W", icon: "ellipsis", link: "/vex15/" },
             { text: "VEX105/40W", icon: "ellipsis", link: "/vex40/" },
@@ -29,29 +31,20 @@ export const enSidebar = sidebar({
         },
         {
           text: "MX系列",
-          icon: "lightbulb",
+          icon: "star",
+          collapsible: true,
           children: [{ text: "MX202", icon: "ellipsis", link: "/MX202/" }],
         },
         {
           text: "WE系列",
-          icon: "lightbulb",
+          icon: "star",
+          collapsible: true,
           children: [
             { text: "WE2.0", icon: "ellipsis", link: "/we20/" },
             { text: "WE2.1", icon: "ellipsis", link: "/we21/" },
           ],
         },
       ],
-    },
-
-    {
-      text: "商城",
-      icon: "/image/icon.svg",
-      link: "https://mall.likeyou168.cn",
-    },
-    {
-      text: "社区",
-      icon: "/image/icon.svg",
-      link: "https://forum.likeyou168.cn",
     },
   ],
 });

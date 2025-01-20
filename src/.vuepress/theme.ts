@@ -1,73 +1,66 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://manual.likeyou168.cn", // 修改为新的主机名
+  hostname: "https://manual.likeyou168.cn",
 
-  // author: {
-  //   name: "Mr.Hu",
-  //   url: "https://", // 保持作者信息不变
-  // },
+  author: {
+    name: "Mr.Hu",
+  },
 
-  logo: "/image/faicon.png", // 修改为新的 logo 地址
+  logo: "faicon.png",
 
-  repo: "likeyou8888/doc", // 保持 repo 信息不变
+  repo: "likeyou8888/doc",
 
-  docsDir: "src", // 保持 docsDir 不变
+  docsDir: "src",
 
   locales: {
     "/": {
       // navbar
-      navbar: enNavbar, // 使用已有的英文导航配置
+      navbar: enNavbar,
 
       // sidebar
-      sidebar: enSidebar, // 使用已有的英文侧边栏配置
+      sidebar: enSidebar,
 
-      footer: "默认页脚", // 页脚改为 "默认页脚"
-      displayFooter: false, // 隐藏页脚显示
+      // footer: "Default footer",
+
+      displayFooter: true,
 
       metaLocales: {
-        editLink: "Edit this page on GitHub", // GitHub 编辑链接
+        editLink: "Edit this page on GitHub",
       },
     },
 
+    /**
+     * Chinese locale config
+     */
     "/zh/": {
       // navbar
-      navbar: zhNavbar, // 使用已有的中文导航配置
+      navbar: zhNavbar,
 
       // sidebar
-      sidebar: zhSidebar, // 使用已有的中文侧边栏配置
+      sidebar: zhSidebar,
 
-      footer: "默认页脚", // 中文页脚内容
-      displayFooter: false, // 显示页脚
+      // footer: "默认页脚",
 
+      displayFooter: true,
+
+      // page meta
       metaLocales: {
-        editLink: "在 GitHub 上编辑此页", // 中文的 GitHub 编辑链接
+        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
 
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": {
-        hint: "Password: 1234", // 密码提示
-        password: "1234", // 密码
-      },
-      "/zh/demo/encrypt.html": {
-        hint: "Password: 1234", // 密码提示
-        password: "1234", // 密码
-      },
-    },
-  },
-
-  // 启用的一些 markdown 功能
+  // These features are enabled for demo, only preserve features you need here
   markdown: {
     align: true,
     attrs: true,
     codeTabs: true,
     component: true,
-    demo: false,
+    demo: true,
     figure: true,
     gfm: true,
     imgLazyload: true,
@@ -94,10 +87,46 @@ export default hopeTheme({
     tabs: true,
     tasklist: true,
     vPre: true,
+
+    // uncomment these if you need TeX support
+    // math: {
+    //   // install katex before enabling it
+    //   type: "katex",
+    //   // or install mathjax-full before enabling it
+    //   type: "mathjax",
+    // },
+
+    // install chart.js before enabling it
+    // chartjs: true,
+
+    // install echarts before enabling it
+    // echarts: true,
+
+    // install flowchart.ts before enabling it
+    // flowchart: true,
+
+    // install mermaid before enabling it
+    // mermaid: true,
+
+    // playground: {
+    //   presets: ["ts", "vue"],
+    // },
+
+    // install @vue/repl before enabling it
+    // vuePlayground: true,
+
+    // install sandpack-vue3 before enabling it
+    // sandpack: true,
+
+    // install @vuepress/plugin-revealjs and uncomment these if you need slides
+    // revealjs: {
+    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+    // },
   },
 
   plugins: {
-    // // 评论插件，使用 Giscus
+    // Note: This is for testing ONLY!
+    // You MUST generate and use your own comment service in production.
     // comment: {
     //   provider: "Giscus",
     //   repo: "vuepress-theme-hope/giscus-discussions",
@@ -110,14 +139,71 @@ export default hopeTheme({
       components: [
         "Badge", 
         "VPCard",
-        "ArtPlayer",
-        "PDF",
-        "Share",
+        "VidStack",
+        "PDF"
       ],
     },
 
     icon: {
-      prefix: "fa6-solid:", // 使用 FontAwesome 6 图标
+      assets: "fontawesome", //https://fontawesome.com/search?o=r&m=free
+      prefix: "fa6-solid:",
     },
+
+    // Install @vuepress/plugin-pwa and uncomment these if you want a PWA
+    // pwa: {
+    //   favicon: "/favicon.ico",
+    //   cacheHTML: true,
+    //   cacheImage: true,
+    //   appendBase: true,
+    //   apple: {
+    //     icon: "/assets/icon/apple-icon-152.png",
+    //     statusBarColor: "black",
+    //   },
+    //   msTile: {
+    //     image: "/assets/icon/ms-icon-144.png",
+    //     color: "#ffffff",
+    //   },
+    //   manifest: {
+    //     icons: [
+    //       {
+    //         src: "/assets/icon/chrome-mask-512.png",
+    //         sizes: "512x512",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-mask-192.png",
+    //         sizes: "192x192",
+    //         purpose: "maskable",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-512.png",
+    //         sizes: "512x512",
+    //         type: "image/png",
+    //       },
+    //       {
+    //         src: "/assets/icon/chrome-192.png",
+    //         sizes: "192x192",
+    //         type: "image/png",
+    //       },
+    //     ],
+    //     shortcuts: [
+    //       {
+    //         name: "Demo",
+    //         short_name: "Demo",
+    //         url: "/demo/",
+    //         icons: [
+    //           {
+    //             src: "/assets/icon/guide-maskable.png",
+    //             sizes: "192x192",
+    //             purpose: "maskable",
+    //             type: "image/png",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // },
   },
 });

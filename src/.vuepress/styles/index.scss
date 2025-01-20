@@ -1,1 +1,10 @@
 // place your custom styles here
+.vp-feature-item {
+    .vp-feature-title {
+        text-align: center;
+        .vp-icon {
+            width: 100% !important;
+            height: auto !important;
+        }
+    }
+}
