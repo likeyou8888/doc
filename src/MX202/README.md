@@ -1,12 +1,12 @@
 ---
-title: MX202说明书
+title: MX202 User Manual
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 7
 category:
-  - 使用指南
+  - User Guide
 pageInfo: false
 ---
 

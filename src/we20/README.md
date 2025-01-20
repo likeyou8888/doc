@@ -1,12 +1,12 @@
 ---
-title: WE2.0说明书
+title: WE2.0 User Manual
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 9
 category:
-  - 使用指南
+  - User Guide
 pageInfo: false
 ---
 

@@ -27,7 +27,7 @@ category:
 - **可支持串联电芯数**：2-5节
 - **保护功能**：过充、过放、过热、短路保护
 ## 接口说明
-![接口图片](http://video.likeyou168.cn:9000/lky/lky/charge/chargerp.jpg )
+![接口图片](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg )
 ## 使用方法
 
 1. 将电池和功放板的电源输入口串联在一起。

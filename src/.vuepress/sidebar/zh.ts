@@ -44,6 +44,15 @@ export const zhSidebar = sidebar({
             { text: "WE2.1", icon: "ellipsis", link: "/zh/we21/" },
           ],
         },
+        {
+          text: "DK系列",
+          icon: "star",
+          collapsible: true,
+          children: [
+            { text: "DK60", icon: "ellipsis", link: "/zh/DK60/" },
+
+          ],
+        },
       ],
     },
   ],

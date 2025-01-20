@@ -29,7 +29,7 @@ The battery voltage can be adjusted via a variable voltage switch. If the maximu
 - **Protection Features**: Overcharge, over-discharge, overheating, and short-circuit protection
 
 ## Interface Description
-![Interface Image](http://video.likeyou168.cn:9000/lky/lky/charge/chargerp.jpg)
+![Interface Image](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg)
 
 ## Usage Instructions
 

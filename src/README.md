@@ -1,12 +1,12 @@
 ---
 home: true
-title: 说明书
+title: Manual
 icon: home
-heroText: 厉客优文档
-tagline: 请先下拉选择型号
+heroText: EIFFELTON Doc
+tagline: Please scroll down to select the model
 
 actions:
-  - text: 选择型号
+  - text: Select Model
     link: ./#section1
     icon: signs-post
     type: primary
@@ -15,7 +15,7 @@ features:
     icon: /image/15w.png
     link: ./vex15/
 
-  - title: VEX/105 40w×2w
+  - title: VEX/105 40W×2
     icon: /image/40w.png
     link: ./vex40/
 
@@ -35,11 +35,11 @@ features:
     icon: /image/vex2150.png
     link: ./vex2150/
 
-  - title: EX202 /2170
+  - title: EX202/2170
     icon: /image/EX2170.png
     link: ./EX2170/
 
-  - title: MX202麦克风
+  - title: MX202 Microphone
     icon: /image/MX202.png
     link: ./MX202/
 
@@ -55,14 +55,13 @@ features:
     icon: /image/2_1.png
     link: ./we21/
   
-  - title: 电池快充板
+  - title: Fast Charging Board
     icon: /image/charge.png
     link: ./charge/
 
   - title: DK60
     icon: /image/dk60.png
     link: ./DK60/
-
 
 
 copyright: false

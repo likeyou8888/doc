@@ -1,12 +1,12 @@
 ---
-title: DK60说明书
+title: DK60 User Manual
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 11
 category:
-  - 使用指南
+  - User Guide
 pageInfo: false
 ---
 

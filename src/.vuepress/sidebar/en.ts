@@ -8,7 +8,7 @@ export const enSidebar = sidebar({
       prefix: "guide/",
       children: [
         {
-          text: "EX系列",
+          text: "EX series",
           icon: "star",
           collapsible: true,
           children: [
@@ -20,7 +20,7 @@ export const enSidebar = sidebar({
           ],
         },
         {
-          text: "VEX系列",
+          text: "VEX series",
           icon: "star",
           collapsible: true,
           children: [
@@ -30,18 +30,26 @@ export const enSidebar = sidebar({
           ],
         },
         {
-          text: "MX系列",
+          text: "MX series",
           icon: "star",
           collapsible: true,
           children: [{ text: "MX202", icon: "ellipsis", link: "/MX202/" }],
         },
         {
-          text: "WE系列",
+          text: "WE series",
           icon: "star",
           collapsible: true,
           children: [
             { text: "WE2.0", icon: "ellipsis", link: "/we20/" },
             { text: "WE2.1", icon: "ellipsis", link: "/we21/" },
+          ],
+        },
+        {
+          text: "DK series",
+          icon: "star",
+          collapsible: true,
+          children: [
+            { text: "DK60", icon: "ellipsis", link: "/DK60/" },
           ],
         },
       ],

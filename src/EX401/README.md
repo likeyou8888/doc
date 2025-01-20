@@ -1,12 +1,12 @@
 ---
-title: EX401说明书
+title: EX401 User Manual
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 8
 category:
-  - 使用指南
+  - User Guide
 ---
 
 <Catalog />

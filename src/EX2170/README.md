@@ -1,12 +1,12 @@
 ---
-title: EX202/2170说明书
+title: EX202/2170 User Manual
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 6
 category:
-  - 使用指南
+  - User Guides
 pageInfo: false
 ---
 

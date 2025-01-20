@@ -17,13 +17,13 @@ category:
 以下是不同设备型号的固件版本列表：
 
 - **适于触摸板固件**
-  - **下载链接**：**[无提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
-  - **下载链接**：**[有提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
+  - **下载链接**：**[无提示音](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
+  - **下载链接**：**[有提示音](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
 
 - **适于5R旋钮固件**
   
-  - **下载链接**：**[无提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
-  - **下载链接**：**[有提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_VR.MVAX)**
+  - **下载链接**：**[无提示音](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
+  - **下载链接**：**[有提示音](https://likeyou156156.online:9000/lky/old_bin/QY_Eiffel_One_VR.MVAX)**
 
 # 孔距
 - **按键面板孔距**

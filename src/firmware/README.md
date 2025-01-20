@@ -1,35 +1,34 @@
 ---
-title: 2023版本固件和孔距
+title: Firmware and Hole Spacing for 2023 Version
 index: false
 icon: laptop-code
 dir:
   link: true
   order: 20
-pageinfo : flase
+pageinfo: false
 category:
-  - 下载指南
+  - Download Guide
 ---
 ::: tip
-无需选择型号 EX系列是选择触摸固件 VEX系列选择5VR旋钮固件
+No need to select a model. Choose the touch firmware for EX series and the 5VR knob firmware for VEX series.
 :::
 
-# 固件版本列表
-以下是不同设备型号的固件版本列表：
+# Firmware Version List
+The following is a list of firmware versions for different device models:
 
-- **适于触摸板固件**
-  - **下载链接**：**[无提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
-  - **下载链接**：**[有提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
+- **Touch Panel Firmware**
+  - **Download Link**: **[No Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
+  - **Download Link**: **[With Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
 
-- **适于5R旋钮固件**
-  
-  - **下载链接**：**[无提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
-  - **下载链接**：**[有提示音](http://video.likeyou168.cn:9000/lky/lky/2023/QY_Eiffel_One_VR.MVAX)**
+- **5R Knob Firmware**
+  - **Download Link**: **[No Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
+  - **Download Link**: **[With Sound](https://likeyou156156.online:9000/lky/old_bin/QY_Eiffel_One_VR.MVAX)**
 
-# 孔距
-- **按键面板孔距**
+# Hole Spacing
+- **Key Panel Hole Spacing**
 
-![按键图片](/image/1.png)
+![Key Image](/image/1.png)
 
-- **尾插面板孔距**
+- **Tail Plug Panel Hole Spacing**
 
-![尾插图片](/image/2.png)
+![Tail Plug Image](/image/2.png)

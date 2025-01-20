@@ -1,12 +1,12 @@
 ---
-title: VEX/105 15W×2说明书
+title: VEX/105 15W×2 User Manual
 index: false
 dir:
   link: true
   order: 1
 icon: laptop-code
 category:
-  - 使用指南
+  - User Guide
 pageInfo: false
 ---
 
