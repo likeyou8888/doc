@@ -49,5 +49,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           # 部署文档
-          branch: gh-pages
+          branch: docPages
           folder: src/.vuepress/dist
