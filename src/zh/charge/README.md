@@ -28,6 +28,11 @@ category:
 - **保护功能**：过充、过放、过热、短路保护
 ## 接口说明
 ![接口图片](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg )
+---
+<a href="https://www.douyin.com/video/7444854451191500069" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #fff; background-color: #ff0050; border-radius: 30px; text-decoration: none;">
+  点击观看抖音视频
+</a>
+
 ## 使用方法
 
 1. 将电池和功放板的电源输入口串联在一起。
