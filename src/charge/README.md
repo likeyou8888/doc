@@ -30,6 +30,10 @@ The battery voltage can be adjusted via a variable voltage switch. If the maximu
 
 ## Interface Description
 ![Interface Image](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg)
+---
+<a href="https://www.douyin.com/video/7444854451191500069" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #fff; background-color: #ff0050; border-radius: 30px; text-decoration: none;">
+  Click to watch the video of Douyin
+</a>
 
 ## Usage Instructions
 
