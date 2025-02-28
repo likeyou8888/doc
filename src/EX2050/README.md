@@ -6,11 +6,11 @@ order: 4
 category:
   - User Guide
 prev:
-  text: 产品手册
+  text: Product Manual
   link: /
 next:
-  text: 产品特点
-  link: 1
+  text: Features
+  link: /EX2050/1
 ---
 
 <Catalog />
