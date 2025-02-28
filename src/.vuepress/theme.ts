@@ -16,6 +16,8 @@ export default hopeTheme({
   // 启用页面导航
   prevLink: true,
   nextLink: true,
+  selectLanguageText: "Languages",
+  selectLanguageAriaLabel: "Select language",
   locales: {
     "/": {
       // navbar
