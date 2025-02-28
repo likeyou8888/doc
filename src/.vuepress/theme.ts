@@ -127,16 +127,16 @@ export default hopeTheme({
   },
 
   plugins: {
-    // Note: This is for testing ONLY!
-    // You MUST generate and use your own comment service in production.
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
-
+    search: {
+      locales: {
+        '/': {
+          placeholder: 'Search',
+        },
+        '/zh/': {
+          placeholder: '搜索',
+        },
+      },
+    },
     components: {
       components: [
         "Badge", 
@@ -145,7 +145,6 @@ export default hopeTheme({
         "PDF"
       ],
     },
-
     icon: {
       assets: "fontawesome", //https://fontawesome.com/search?o=r&m=free
       prefix: "fa6-solid:",
