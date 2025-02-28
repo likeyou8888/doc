@@ -1,0 +1,144 @@
+/* 抖音按钮全局样式 */
+
+/* 悬浮按钮容器样式 */
+.floating-container {
+  position: fixed;
+  bottom: 200px;
+  right: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 1000;
+  cursor: grab;
+}
+
+/* 悬浮按钮样式 */
+.floating-button {
+  width: 40px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 42%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0;
+  animation: breathe 2s infinite;
+}
+
+/* 隐藏伪元素（小箭头） */
+.floating-button::before,
+.floating-button::after {
+  display: none;
+}
+
+/* 确保图标没有额外间距 */
+.floating-button i {
+  line-height: 1;
+  margin: 0;
+}
+
+/* 文字提示样式 */
+.floating-text {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  opacity: 1;
+}
+
+/* 鼠标悬停效果 */
+.floating-container:hover .floating-button {
+  background-color: #e60046;
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 点击效果 */
+.floating-button:active {
+  transform: scale(0.9);
+  animation: shake 0.3s ease;
+}
+
+/* 加载动画样式 */
+.loading-spinner {
+  display: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 呼吸灯效果 */
+@keyframes breathe {
+  0% { box-shadow: 0 0 0 0 rgba(230, 0, 70, 0.7); }
+  50% { box-shadow: 0 0 0 10px rgba(230, 0, 70, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(230, 0, 70, 0); }
+}
+
+/* 震动效果 */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* 暗黑模式适配 */
+@media (prefers-color-scheme: dark) {
+  .floating-button {
+    background-color: #333;
+    color: #fff;
+  }
+
+  .floating-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000;
+  }
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+  .floating-button {
+    width: 36px;
+    height: 36px;
+    font-size: 18px;
+  }
+
+  .floating-text {
+    display: none;
+  }
+
+  .floating-container {
+    bottom: 16px;
+    right: 16px;
+  }
+}
+
+/* 超小屏幕适配（如 iPhone SE） */
+@media (max-width: 480px) {
+  .floating-button {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
+
+  .floating-container {
+    bottom: 12px;
+    right: 12px;
+  }
+}
