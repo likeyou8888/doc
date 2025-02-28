@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+// 导入搜索插件，使用 @vuepress/plugin-search 的最新导入路径
 import { searchPlugin } from '@vuepress/plugin-search'
 import theme from "./theme.js";
 

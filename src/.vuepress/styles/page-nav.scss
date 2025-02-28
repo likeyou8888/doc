@@ -1,0 +1,30 @@
+// 确保页面导航按钮正确显示
+.vp-page-nav {
+  display: flex !important;
+  justify-content: space-between;
+  margin-top: 2rem;
+  border-top: 1px solid var(--border-color);
+  padding-top: 1rem;
+  
+  .prev, .next {
+    display: inline-block !important;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+    background-color: var(--bg-color-secondary);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      background-color: var(--bg-color-tertiary);
+      text-decoration: none;
+    }
+  }
+  
+  .prev {
+    margin-right: auto;
+  }
+  
+  .next {
+    margin-left: auto;
+  }
+}

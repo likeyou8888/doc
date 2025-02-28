@@ -9,13 +9,13 @@ export default hopeTheme({
   author: {
     name: "Mr.Hu",
   },
-
   logo: "faicon.png",
-
   repo: "likeyou8888/doc",
-
   docsDir: "src",
-
+  pageInfo: false,
+  // 启用页面导航
+  prevLink: true,
+  nextLink: true,
   locales: {
     "/": {
       // navbar
