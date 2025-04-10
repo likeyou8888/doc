@@ -17,6 +17,7 @@ export const zhSidebar = sidebar({
             { text: "EX2150", icon: "ellipsis", link: "/zh/EX2150/" },
             { text: "EX2170", icon: "ellipsis", link: "/zh/EX2170/" },
             { text: "EX401", icon: "ellipsis", link: "/zh/EX401/" },
+            { text: "EX402", icon: "ellipsis", link: "/zh/EX402/" },
           ],
         },
         {

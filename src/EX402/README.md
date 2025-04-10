@@ -1,5 +1,5 @@
 ---
-title: EX401 User Manual
+title: EX402 User Manual
 index: false
 icon: laptop-code
 dir:
