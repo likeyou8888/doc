@@ -48,7 +48,7 @@ features:
     link: ./EX401/
 
   - title: EX402
-    icon: /image/4_1.png
+    icon: /image/ex402.png
     link: ./EX402/
 
   - title: WE2.0
