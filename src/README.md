@@ -39,6 +39,10 @@ features:
     icon: /image/EX2170.png
     link: ./EX2170/
 
+  - title: MX201
+    icon: /image/MX201.png
+    link: ./MX201/
+    
   - title: MX202 Microphone
     icon: /image/MX202.png
     link: ./MX202/
