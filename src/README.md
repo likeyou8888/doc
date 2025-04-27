@@ -55,6 +55,10 @@ features:
     icon: /image/ex402.png
     link: ./EX402/
 
+  - title: EX201
+    icon: /image/EX201.jpg
+    link: ./EX201/
+
   - title: WE2.0
     icon: /image/2_0.png
     link: ./we20/

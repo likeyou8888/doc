@@ -18,6 +18,7 @@ export const enSidebar = sidebar({
             { text: "EX2170", icon: "ellipsis", link: "/EX2170/" },
             { text: "EX401", icon: "ellipsis", link: "/EX401/" },
             { text: "EX402", icon: "ellipsis", link: "/EX402/" },
+            { text: "EX201", icon: "ellipsis", link: "/EX201/" },
           ],
         },
         {
