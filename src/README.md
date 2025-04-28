@@ -56,7 +56,7 @@ features:
     link: ./EX402/
 
   - title: EX201MAX
-    icon: /image/EX201.jpg
+    icon: /image/ex201max.png
     link: ./EX201MAX/
 
   - title: WE2.0
