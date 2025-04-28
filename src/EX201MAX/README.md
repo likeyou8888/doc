@@ -1,5 +1,5 @@
 ---
-title: EX201 User Manual
+title: EX201MAX User Manual
 index: false
 icon: laptop-code
 dir:
