@@ -1,5 +1,5 @@
 ---
-title: EX402说明书
+title: EX201说明书
 index: false
 icon: laptop-code
 dir:
