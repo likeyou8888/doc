@@ -10,8 +10,6 @@ category:
   - 下载指南
 ---
 
-**[下载快充板 3D模型](https://likeyou156156.online:9000/lky/3D/kcb.step)**
-
 # 电池快充板介绍
 
 ## 什么是电池快充板？
@@ -32,13 +30,6 @@ category:
 ## 接口说明
 ![接口图片](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg )
 ---
-<a href="https://www.douyin.com/video/7444854451191500069" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #fff; background-color: #ff0050; border-radius: 30px; text-decoration: none;">
-<<<<<<< HEAD
-  Click to watch the video of Douyin
-=======
-  点击观看抖音视频
->>>>>>> da1a13035805c16175f6290cde8c930f0f8c95aa
-</a>
 
 ## 使用方法
 

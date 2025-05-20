@@ -10,8 +10,6 @@ category:
   - Download Guide
 ---
 
-**[Download 3D](https://likeyou156156.online:9000/lky/3D/kcb.step)**
-
 # Introduction to the Fast Charging Board
 
 ## What is a Fast Charging Board?
