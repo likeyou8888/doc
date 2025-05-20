@@ -9,6 +9,9 @@ pageinfo : flase
 category:
   - 下载指南
 ---
+
+**[下载快充板 3D模型](https://likeyou156156.online:9000/lky/3D/kcb.step)**
+
 # 电池快充板介绍
 
 ## 什么是电池快充板？
