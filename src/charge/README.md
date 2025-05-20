@@ -9,7 +9,6 @@ pageinfo: false
 category:
   - Download Guide
 ---
-
 # Introduction to the Fast Charging Board
 
 ## What is a Fast Charging Board?
