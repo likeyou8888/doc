@@ -10,9 +10,6 @@ category:
   - 下载指南
 ---
 
-# 下载3D模型
-
-**[下载快充板 3D模型](https://likeyou156156.online:9000/lky/3D/kcb.step)**
 
 # 电池快充板介绍
 
@@ -21,6 +18,11 @@ category:
 ::: caution
 不支持ex401功放板和前置板
 :::
+
+# 下载3D模型
+
+**[下载快充板 3D模型](https://likeyou156156.online:9000/lky/3D/kcb.step)**
+
 ## 技术参数
 
 - **输入电压范围**：5V - 20V
