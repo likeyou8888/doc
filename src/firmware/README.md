@@ -17,12 +17,12 @@ No need to select a model. Choose the touch firmware for EX series and the 5VR k
 The following is a list of firmware versions for different device models:
 
 - **Touch Panel Firmware**
-  - **Download Link**: **[No Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
-  - **Download Link**: **[With Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
+  - **Download Link**: **[No Sound](https://youli.uno:9000/lky/lky/2023/QY_Eiffel_One_mute.MVAX)**
+  - **Download Link**: **[With Sound](https://youli.uno:9000/lky/lky/2023/QY_Eiffel_One_20230706_02.MVAX)**
 
 - **5R Knob Firmware**
-  - **Download Link**: **[No Sound](https://likeyou156156.online:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
-  - **Download Link**: **[With Sound](https://likeyou156156.online:9000/lky/old_bin/QY_Eiffel_One_VR.MVAX)**
+  - **Download Link**: **[No Sound](https://youli.uno:9000/lky/lky/2023/QY_Eiffel_One_VRmute.MVAX)**
+  - **Download Link**: **[With Sound](https://youli.uno:9000/lky/old_bin/QY_Eiffel_One_VR.MVAX)**
 
 # Hole Spacing
 - **Key Panel Hole Spacing**

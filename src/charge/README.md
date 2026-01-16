@@ -13,7 +13,7 @@ category:
 
 # Download 3D model
 
-**[Download 3D](https://likeyou156156.online:9000/lky/3D/kcb.step)**
+**[Download 3D](https://youli.uno:9000/lky/3D/kcb.step)**
 
 ## What is a Fast Charging Board?
 The charging board can convert low-voltage batteries into high-voltage output for use by amplifier boards.
@@ -33,7 +33,7 @@ The battery voltage can be adjusted via a variable voltage switch. If the maximu
 - **Protection Features**: Overcharge, over-discharge, overheating, and short-circuit protection
 
 ## Interface Description
-![Interface Image](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg)
+![Interface Image](https://youli.uno:9000/lky/lky/charge/chargerp.jpg)
 ---
 <a href="https://www.douyin.com/video/7444854451191500069" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #fff; background-color: #ff0050; border-radius: 30px; text-decoration: none;">
   Click to watch the video of Douyin

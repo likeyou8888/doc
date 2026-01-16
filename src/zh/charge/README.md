@@ -21,7 +21,7 @@ category:
 
 # 下载3D模型
 
-**[下载快充板 3D模型](https://likeyou156156.online:9000/lky/3D/kcb.step)**
+**[下载快充板 3D模型](https://youli.uno:9000/lky/3D/kcb.step)**
 
 ## 技术参数
 
@@ -34,7 +34,7 @@ category:
 - **可支持串联电芯数**：2-5节
 - **保护功能**：过充、过放、过热、短路保护
 ## 接口说明
-![接口图片](https://likeyou156156.online:9000/lky/lky/charge/chargerp.jpg )
+![接口图片](https://youli.uno:9000/lky/lky/charge/chargerp.jpg )
 ---
 <a href="https://www.douyin.com/video/7444854451191500069" target="_blank" style="display: inline-block; padding: 12px 24px; font-size: 16px; color: #fff; background-color: #ff0050; border-radius: 30px; text-decoration: none;">
 <<<<<<< HEAD
