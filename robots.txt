@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://manual.likeyou168.cn/sitemap.xml
