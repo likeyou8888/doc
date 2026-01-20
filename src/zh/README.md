@@ -59,6 +59,10 @@ features:
     icon: /image/ex201max.png
     link: ./EX201MAX/
  
+  - title: GH613
+    icon: /image/GH613.png
+    link: ./GH613/
+
   - title: WE2.0
     icon: /image/2_0.png
     link: ./we20/

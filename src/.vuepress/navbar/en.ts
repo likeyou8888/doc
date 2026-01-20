@@ -9,6 +9,6 @@ export const enNavbar = navbar([
   {
     text: "Community",
     icon: 'puzzle-piece',
-    link: "https://forum.likeyou168.cn",
+    link: "https://bbs.likeyou168.cn",
   },
 ]);

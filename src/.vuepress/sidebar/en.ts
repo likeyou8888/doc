@@ -54,6 +54,14 @@ export const enSidebar = sidebar({
             { text: "DK60", icon: "ellipsis", link: "/DK60/" },
           ],
         },
+        {
+          text: "GH series",
+          icon: "star",
+          collapsible: true,
+          children: [
+            { text: "GH613", icon: "ellipsis", link: "/GH613/" },
+          ],
+        },
       ],
     },
   ],

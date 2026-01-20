@@ -9,6 +9,6 @@ export const zhNavbar = navbar([
   {
     text: "社区",
     icon: 'puzzle-piece',
-    link: "https://forum.likeyou168.cn",
+    link: "https://bbs.likeyou168.cn",
   },
 ]);

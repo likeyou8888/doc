@@ -55,6 +55,14 @@ export const zhSidebar = sidebar({
 
           ],
         },
+        {
+          text: "GH系列",
+          icon: "star",
+          collapsible: true,
+          children: [
+            { text: "GH613", icon: "ellipsis", link: "/zh/GH613/" },
+          ],
+        },
       ],
     },
   ],
